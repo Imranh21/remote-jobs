@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&family=Source+Sans+Pro:wght@400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: rgb(248, 248, 248);
+}
+
+footer {
+  width: 100%;
+  padding: 50px 0;
+  background: #fff;
+  display: grid;
+  place-items: center;
+}
+
+a {
+  text-decoration: none;
+}

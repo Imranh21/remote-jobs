@@ -1,0 +1,84 @@
+form {
+    width: 70%;
+    margin: -60px auto 0;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    background: #fff;
+    border-radius: 10px;
+  
+    @media all and (max-width: 480px) {
+      width: 90%;
+    }
+  
+    .container {
+      padding: 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  
+      @media all and (max-width: 480px) {
+        flex-direction: column;
+  
+        div {
+          width: 90%;
+          margin: 10px 0;
+        }
+      }
+  
+      
+  
+      .inputBox {
+        flex: 1;
+        display: flex;
+        padding: 0 20px;
+  
+        @media all and (max-width: 480px){
+          background: rgb(236, 236, 236);
+          padding: 10px;
+          border-radius: 10px;
+        }
+  
+  
+        svg {
+          width: 25px;
+          height: 25px;
+          margin-right: 20px;
+          color: rgb(129, 129, 129);
+        }
+  
+        input {
+          width: 100%;
+          font-size: 12px;
+          border: none;
+          outline: none;
+          background: transparent;
+          
+        }
+      }
+  
+      .btnBox {
+        overflow: hidden;
+        border-radius: 10px;
+        
+        
+        @media all and (max-width: 480px){
+          width: 100%;
+          background: rgb(43, 0, 100);
+          border-radius: 10px;
+        }
+        button {
+          background: rgb(5, 0, 68);
+          color: #fff;
+          border: none;
+          border-radius: 10px;
+          padding: 15px 30px;
+          cursor: pointer;
+  
+          @media all and (max-width: 480px){
+            width: 100%;
+            
+          }
+        }
+      }
+      
+    }
+  }

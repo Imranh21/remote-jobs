@@ -1,0 +1,59 @@
+.catContainer {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px 0;
+    overflow: auto;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+  
+    @media all and (max-width: 480px){
+      width: 90%;
+    }
+  
+    h2 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+  
+    .cardContainer {
+      width: 100%;
+      display: flex;
+      overflow: auto;
+      padding: 20px 0;
+      
+  
+      .catCard {
+        
+        max-width: 100px;
+        padding: 5px 20px;
+        
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        margin: 0 10px;
+        display: grid;
+        place-items: center;
+        transition: .3s all linear;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(3, 27, 158, 0.2);
+  
+        &:hover {
+          background: rgb(5, 0, 68);
+          
+          p {
+            color: #fff;
+          }
+        }
+    
+        p {
+          color: rgb(99, 99, 99);
+          
+          font-weight: 600;
+          font-size: 14px;
+          @media all and (max-width: 480px){
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
